@@ -1,0 +1,54 @@
+.commentWrapper {
+    display: flex;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLeft {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.body {
+    margin-top: 15px;
+    color: #3a3b3c;
+}
+
+.currentUserTag {
+    color: #fff;
+    background-color: #5357b6;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.controls {
+    display: flex;
+}
+
+.replyingTo {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: #3a3b3c;
+}
+
+.username {
+    font-weight: bold;
+    color: #5357b6;
+}
+
+.timeAgo {
+    color: #3a3b3c;
+}

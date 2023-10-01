@@ -1,4 +1,8 @@
 {
   "name": "react-interactive-comments",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "dependencies": {
+    "classnames": "^2.3.2",
+    "date-fns": "^2.30.0"
+  }
 }

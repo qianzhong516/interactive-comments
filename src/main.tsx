@@ -1,6 +1,5 @@
 import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
-import { ReactInteractiveComments } from 'react-interactive-comments';
 
 import App from './app/app';
 
@@ -10,6 +9,5 @@ const root = ReactDOM.createRoot(
 root.render(
   <StrictMode>
     <App />
-    <ReactInteractiveComments />
   </StrictMode>
 );
