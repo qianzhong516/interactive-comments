@@ -1,0 +1,36 @@
+{
+  "name": "react-interactive-comments",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "react-interactive-comments/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["react-interactive-comments/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "build": {
+      "executor": "@nx/rollup:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/react-interactive-comments",
+        "tsConfig": "react-interactive-comments/tsconfig.lib.json",
+        "project": "react-interactive-comments/package.json",
+        "entryFile": "react-interactive-comments/src/index.ts",
+        "external": ["react", "react-dom", "react/jsx-runtime"],
+        "rollupConfig": "@nx/react/plugins/bundle-rollup",
+        "compiler": "babel",
+        "assets": [
+          {
+            "glob": "react-interactive-comments/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    }
+  }
+}
