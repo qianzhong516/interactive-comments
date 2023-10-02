@@ -1,5 +1,8 @@
 {
   "name": "react-interactive-comments",
+  "description": "An interactive comments plugin powered by React",
+  "author": "Janice Zhong",
+  "license": "MIT",
   "version": "0.0.1",
   "dependencies": {
     "classnames": "^2.3.2",
