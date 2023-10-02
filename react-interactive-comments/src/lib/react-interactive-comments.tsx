@@ -3,6 +3,8 @@ import { useState, useEffect, useCallback } from 'react';
 import { Comment } from '../components/comment/comment';
 import { formatDistanceToNow } from 'date-fns';
 
+export type ReactInteractiveCommentType = CommentType;
+
 export interface ReactInteractiveCommentsProps {
   comments: CommentType[];
   maxDepth?: number;

@@ -1,7 +1,9 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { CommentType } from 'react-interactive-comments/src/types';
 import { useState, useEffect } from 'react';
-import { ReactInteractiveComments } from 'react-interactive-comments';
+import {
+  ReactInteractiveComments,
+  ReactInteractiveCommentType as CommentType,
+} from 'react-interactive-comments';
 
 export function App() {
   const [comments, setComments] = useState<CommentType[]>([]);
