@@ -2,6 +2,7 @@ import { CommentType } from '../types';
 import { useState, useEffect, useCallback } from 'react';
 import { Comment } from '../components/comment/comment';
 import { formatDistanceToNow } from 'date-fns';
+import 'material-icons/iconfont/filled.css';
 
 export type ReactInteractiveCommentType = CommentType;
 

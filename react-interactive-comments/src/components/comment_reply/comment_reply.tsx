@@ -1,4 +1,3 @@
-import React from 'react';
 import { Avatar } from '../avatar/avatar';
 import styles from './comment_reply.module.css';
 import { Button } from '../button/button';
