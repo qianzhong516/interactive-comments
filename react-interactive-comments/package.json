@@ -3,7 +3,7 @@
   "description": "An interactive comments plugin powered by React",
   "author": "Janice Zhong",
   "license": "MIT",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "peerDependencies": {
     "classnames": "2.x",
     "core-js": "3.x",
