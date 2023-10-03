@@ -30,7 +30,7 @@ export function App() {
 }
 ```
 
-### Builds
+## Builds
 
 To test the feature, run
 
