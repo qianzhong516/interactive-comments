@@ -203,7 +203,7 @@ function getCommentProps(comment: CommentType) {
   return {
     id: comment.id,
     votes: comment.score,
-    profileIcon: comment.user.image.png,
+    profileIcon: comment.user.image,
     username: comment.user.username,
     timeAgo: getTimeAgo(+comment.createdAt),
     content: comment.content,

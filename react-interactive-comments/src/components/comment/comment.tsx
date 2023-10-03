@@ -117,7 +117,7 @@ export const Comment = ({
       <Indentation space={Math.min(depth + 1, maxDepth)} />
       <CommentReply
         textareaRef={replyingTextareaRef}
-        profileIcon={currentUser.image.png}
+        profileIcon={currentUser.image}
         handleReply={handleReply}
       />
     </div>
