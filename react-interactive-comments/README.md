@@ -2,6 +2,12 @@
 
 An interactive comment plugin powered by React. The plugin includes features such as editing comments, replying to a comment, giving a comment likes and deleting a comment. Nested comments are auto indented. Various callback props are provided for performing database operations.
 
+## Git Repo
+
+Feel free to make suggestions and raise issues.
+
+https://github.com/qianzhong516/interactive-comments
+
 ## Demo
 
 https://github.com/qianzhong516/interactive-comments/assets/33209457/0197cd8a-6a63-4aaf-8efe-be0441aeb8b3
@@ -29,9 +35,3 @@ export function App() {
   );
 }
 ```
-
-## Git Repo
-
-Feel free to make suggestions and raise issues.
-
-https://github.com/qianzhong516/interactive-comments
