@@ -10,7 +10,9 @@ https://github.com/qianzhong516/interactive-comments
 
 ## Demo
 
-https://github.com/qianzhong516/interactive-comments/assets/33209457/0197cd8a-6a63-4aaf-8efe-be0441aeb8b3
+https://github.com/qianzhong516/interactive-comments/assets/33209457/d16cadf3-76d7-4a50-adb0-c8243a6a9e65
+
+
 
 ## Usage
 
